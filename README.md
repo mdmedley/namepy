@@ -16,8 +16,8 @@ pip install namepy
 ### Syntax
 From the terminal
 ```sh
-$ namepy
-> Name: noncontentious-player
+MacBook-Pro-10:~ user$ namepy
+Name: noncontentious-player
 ```
 
 ### Development
