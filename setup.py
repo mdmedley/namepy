@@ -12,10 +12,11 @@ setup(
     author='Marcus Medley',
     author_email='mdmeds@gmail.com',
     version=__version__,
+    description=__description__,
+    long_description=__description__,
     packages=['namepy'],
     setup_requires=['pytest-runner'],
     tests_require=['pytest'],
-    description=__description__,
     entry_points={
         'console_scripts': [
             'namepy = namepy.__main__:main'
