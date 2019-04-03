@@ -1,1 +1,1 @@
-from namepy import name
+from .namepy import name

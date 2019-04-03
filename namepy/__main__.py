@@ -1,7 +1,8 @@
+from __future__ import print_function
 import argparse
 
-from namepy import name
-from version import __version__
+from .namepy import name
+from .version import __version__
 
 
 def name_it():
@@ -15,7 +16,7 @@ def main(args=None):
     :return: None
     '''
     if args is None:
-        print name_it()
+        print(name_it())
         exit(0)
 
 

@@ -11,6 +11,7 @@ setup(
     name='namepy',
     author='Marcus Medley',
     author_email='mdmeds@gmail.com',
+    license='MIT',
     version=__version__,
     description=__description__,
     long_description=__description__,
@@ -24,4 +25,15 @@ setup(
     },
     keywords=['names', 'naming', 'name', 'generator'],
     url='https://github.com/mdmedley/namepy',
+    classifiers=(
+        'Development Status :: 5 - Production/Stable',
+        'Natural Language :: English',
+        'License :: OSI Approved :: MIT License',
+        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Topic :: Utilities'
+    )
 )

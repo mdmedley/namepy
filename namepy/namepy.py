@@ -1,7 +1,7 @@
 from random import choice
 
-from lexicon import adjectives
-from lexicon import nouns
+from .lexicon import adjectives
+from .lexicon import nouns
 
 
 def name():
